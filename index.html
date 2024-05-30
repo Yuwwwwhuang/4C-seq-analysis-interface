@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4C-Seq Analysis</title>
+    <link href="css/home_page.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script type="text/javascript" src="js/sort.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/figures.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Integrated 4C-Seq Analysis Interface</h1>
+    </header>
+
+    <nav>
+        <ul class="drop-down-menu">
+            <li><a href="index.html">Sample info</a>
+                <ul>
+                    <li><a href="#Experimental">Experimental Design</a></li>
+                    <li><a href="#Mapping">Mapping Result</a></li>
+                    <li><a href="#Correlation">Correlation between Replicates</a></li>
+                </ul>
+            </li>
+            <li><a href="analysis.html">Analysis</a>
+                <ul>
+                    <li><a href="#">FourCSeq</a></li>
+                    <li><a href="#">4Cker</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Acknowledgement</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>Sample info</h1>
+        <h3 id='Experimental'>Experimental Design</h3>
+        <table id="sampleTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0, 'sampleTable')">SampleID<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(1, 'sampleTable')">Strain<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(2, 'sampleTable')">Condition<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                   
+            </tbody>
+        </table>
+
+        <h3 id='Mapping'>Mapping Result</h3>
+        <table id="mappingTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0, 'mappingTable')">SampleID<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(1, 'mappingTable')">Total #<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(2, 'mappingTable')">Viewpoint only #<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(3, 'mappingTable')">Viewpoint only %<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(4, 'mappingTable')">Capture only #<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(5, 'mappingTable')">Capture only %<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(6, 'mappingTable')">Good pairs #<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(7, 'mappingTable')">Good pairs %<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(8, 'mappingTable')">Failed #<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                    <th onclick="sortTable(9, 'mappingTable')">Failed %<span class="sort-icon"><i class="fas fa-sort"></i></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                
+               
+            </tbody>
+        </table>
+
+        <h3 id='Correlation'>Correlation between Replicates</h3>
+        <label for="groupSelect">Select Group:</label>
+        <select id="groupSelect" onchange="showGroup(this.value)">
+            <option value="all">All Groups</option>
+            <option value="A">JKM179_control</option>
+            <option value="B">JKM179_experimental</option>
+            <option value="C">JKM139_control</option>
+            <option value="D">JKM139_experimental</option>
+        </select>
+        <div id="figuresContainer">
+            <!-- Figures will be displayed here -->
+        </div>
+    </section>
+
+    <footer>
+        &copy;ALL Right Reserved.
+    </footer>
+
+    
+</body>
+</html>
