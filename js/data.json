@@ -1,0 +1,30 @@
+{
+    "samples": [
+        { "SampleID": "JKM179_C1", "Strain": "JKM179", "Condition": "Control", "Description": "In YP-lactate" },
+        { "SampleID": "JKM179_C2", "Strain": "JKM179", "Condition": "Control", "Description": "In YP-lactate" },
+        { "SampleID": "JKM179_C3", "Strain": "JKM179", "Condition": "Control", "Description": "In YP-lactate" },
+        { "SampleID": "JKM179_E1", "Strain": "JKM179", "Condition": "Experimental", "Description": "In YP-lactate and 2% Galactose induction for 4h" },
+        { "SampleID": "JKM179_E2", "Strain": "JKM179", "Condition": "Experimental", "Description": "In YP-lactate and 2% Galactose induction for 4h" },
+        { "SampleID": "JKM179_E3", "Strain": "JKM179", "Condition": "Experimental", "Description": "In YP-lactate and 2% Galactose induction for 4h" },
+        { "SampleID": "JKM139_C1", "Strain": "JKM139", "Condition": "Control", "Description": "In YP-lactate" },
+        { "SampleID": "JKM139_C2", "Strain": "JKM139", "Condition": "Control", "Description": "In YP-lactate" },
+        { "SampleID": "JKM139_C3", "Strain": "JKM139", "Condition": "Control", "Description": "In YP-lactate" },
+        { "SampleID": "JKM139_E1", "Strain": "JKM139", "Condition": "Experimental", "Description": "In YP-lactate and 2% Galactose induction for 4h" },
+        { "SampleID": "JKM139_E2", "Strain": "JKM139", "Condition": "Experimental", "Description": "In YP-lactate and 2% Galactose induction for 4h" },
+        { "SampleID": "JKM139_E3", "Strain": "JKM139", "Condition": "Experimental", "Description": "In YP-lactate and 2% Galactose induction for 4h" }
+    ],
+    "mapping": [
+        { "SampleID": "JKM179_C1", "Total": 2842538, "ViewpointOnlyNum": 1205813, "ViewpointOnlyPercent": "42.4%", "CaptureOnlyNum": 34668, "CaptureOnlyPercent": "1.2%", "GoodPairsNum": 1357482, "GoodPairsPercent": "47.8%", "FailedNum": 238713, "FailedPercent": "8.4%" },
+        { "SampleID": "JKM179_C2", "Total": 2204566, "ViewpointOnlyNum": 1166308, "ViewpointOnlyPercent": "52.9%", "CaptureOnlyNum": 14561, "CaptureOnlyPercent": "0.7%", "GoodPairsNum": 914230, "GoodPairsPercent": "41.5%", "FailedNum": 108815, "FailedPercent": "4.9%" },
+        { "SampleID": "JKM179_C3", "Total": 242785, "ViewpointOnlyNum": 133056, "ViewpointOnlyPercent": "54.8%", "CaptureOnlyNum": 27468, "CaptureOnlyPercent": "11.3%", "GoodPairsNum": 76435, "GoodPairsPercent": "31.5%", "FailedNum": 5007, "FailedPercent": "2.1%" },
+        { "SampleID": "JKM179_E1", "Total": 4091219, "ViewpointOnlyNum": 1516799, "ViewpointOnlyPercent": "37.1%", "CaptureOnlyNum": 64899, "CaptureOnlyPercent": "1.6%", "GoodPairsNum": 2117425, "GoodPairsPercent": "51.8%", "FailedNum": 381468, "FailedPercent": "9.3%" },
+        { "SampleID": "JKM179_E2", "Total": 2122672, "ViewpointOnlyNum": 1036441, "ViewpointOnlyPercent": "48.8%", "CaptureOnlyNum": 34132, "CaptureOnlyPercent": "1.6%", "GoodPairsNum": 1032570, "GoodPairsPercent": "48.6%", "FailedNum": 19424, "FailedPercent": "0.9%" },
+        { "SampleID": "JKM179_E3", "Total": 883188, "ViewpointOnlyNum": 449832, "ViewpointOnlyPercent": "50.9%", "CaptureOnlyNum": 94000, "CaptureOnlyPercent": "10.6%", "GoodPairsNum": 318105, "GoodPairsPercent": "36.0%", "FailedNum": 19069, "FailedPercent": "2.2%" },
+        { "SampleID": "JKM139_C1", "Total": 2384035, "ViewpointOnlyNum": 1263295, "ViewpointOnlyPercent": "53.0%", "CaptureOnlyNum": 45433, "CaptureOnlyPercent": "1.9%", "GoodPairsNum": 948216, "GoodPairsPercent": "39.8%", "FailedNum": 124855, "FailedPercent": "5.2%" },
+        { "SampleID": "JKM139_C2", "Total": 2794672, "ViewpointOnlyNum": 1485878, "ViewpointOnlyPercent": "53.2%", "CaptureOnlyNum": 36862, "CaptureOnlyPercent": "1.3%", "GoodPairsNum": 1132581, "GoodPairsPercent": "40.5%", "FailedNum": 136954, "FailedPercent": "4.9%" },
+        { "SampleID": "JKM139_C3", "Total": 543696, "ViewpointOnlyNum": 308566, "ViewpointOnlyPercent": "56.8%", "CaptureOnlyNum": 43427, "CaptureOnlyPercent": "8.0%", "GoodPairsNum": 178255, "GoodPairsPercent": "32.8%", "FailedNum": 11533, "FailedPercent": "2.1%" },
+        { "SampleID": "JKM139_E1", "Total": 1701593, "ViewpointOnlyNum": 566707, "ViewpointOnlyPercent": "33.3%", "CaptureOnlyNum": 24698, "CaptureOnlyPercent": "1.5%", "GoodPairsNum": 1005180, "GoodPairsPercent": "59.1%", "FailedNum": 104672, "FailedPercent": "6.2%" },
+        { "SampleID": "JKM139_E2", "Total": 1924098, "ViewpointOnlyNum": 665097, "ViewpointOnlyPercent": "34.6%", "CaptureOnlyNum": 21448, "CaptureOnlyPercent": "1.1%", "GoodPairsNum": 1106217, "GoodPairsPercent": "57.5%", "FailedNum": 130601, "FailedPercent": "6.8%" },
+        { "SampleID": "JKM139_E3", "Total": 411869, "ViewpointOnlyNum": 175940, "ViewpointOnlyPercent": "42.7%", "CaptureOnlyNum": 61202, "CaptureOnlyPercent": "14.9%", "GoodPairsNum": 161561, "GoodPairsPercent": "39.2%", "FailedNum": 11921, "FailedPercent": "2.9%" }
+    ]
+}
