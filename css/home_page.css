@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background: rgb(248, 245, 230);
+    margin: 0;
+    padding: 0; /*變滿版 回預設的感覺*/
+}
+
+/*全部置中*/
+/*用逗號和空格把型類選擇棄串接*/
+header, nav, section, table, footer{
+    text-align: center;
+}
+
+/*nav*/
+nav{
+    background: rgba(14, 141, 105, 0.5); /*alpha是透明度*/
+    padding: 10px;
+
+    position: -webkit-sticky; /*前綴詞 上下要一樣*/
+	position: sticky;
+	top: 0;
+	z-index: 2000;
+}
+
+nav li a:hover{
+    color: #999;
+}
+
+ul {
+    /* 取消ul預設的內縮及樣式 */
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+ul.drop-down-menu {
+    display: inline-block;
+}
+  
+ul.drop-down-menu li {
+    display: inline;
+    position: relative;
+    white-space: nowrap;
+}
+  
+ul.drop-down-menu>li:last-child {
+    border-right: none;
+}
+  
+ul.drop-down-menu>li {
+    float: left;
+    /* 只有第一層是靠左對齊*/
+}
+  
+ul.drop-down-menu a {
+    background-color: #fff;
+    color: #333;
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    line-height: 20px;
+}
+  
+ul.drop-down-menu a:hover {
+    /* 滑鼠滑入按鈕變色*/
+    background-color: rgb(238, 172, 97);
+    color: #fff;
+}
+  
+ul.drop-down-menu li:hover>a {
+    /* 滑鼠移入次選單上層按鈕保持變色*/
+    background-color: rgb(238, 172, 97);
+    color: #fff;
+}
+  
+ul.drop-down-menu ul {
+    
+    position: absolute;
+    z-index: 99;
+    left: -1px;
+    top: 100%;
+    min-width: 180px;
+}
+  
+  ul.drop-down-menu ul li:last-child {
+    border-bottom: none;
+}
+  
+  
+ul.drop-down-menu ul {
+    /*隱藏次選單*/
+    display: none;
+}
+  
+ul.drop-down-menu li:hover>ul {
+    /* 滑鼠滑入展開次選單*/
+    display: block;
+}
+
+section{
+    width: 80%; /*隨視窗大小排，也可固定用多少px */
+    margin: auto; /*物件置中*/
+}
+
+table{
+    text-align: center;
+    margin: auto;
+}
+
+table caption{
+    text-align: left;
+    font-weight:bolder;
+    font-size: larger;
+}
+
+table th{
+    font-weight:bold;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+article{
+    /*artical的型類選擇器*/
+    display: inline-block;
+    width: 180px;
+    /*固定寬度 不然每個字多字少會不一樣*/
+    border: solid 1px #ddd;
+    /*px: 現要多肥*/
+
+    /*
+    border-style: dashed;
+    border-color: burlywood;
+    border-width: 1px;
+    以上三行等於第19行*/
+
+    margin: 20px;
+}
+
+article:hover{
+    background: #099;
+    color: #fff;
+}
+article:active{
+    background: #fc3;
+    color: #000;
+}
+
+
+.article_a{
+    color: #000;
+}
